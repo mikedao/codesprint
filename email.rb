@@ -10,13 +10,9 @@ def pull_email(data)
 	    datum	.encode('UTF-8', :invalid => :replace, :undef => :replace, :replace => "")
 			}.collect{ |line| line.scan(valid_email)}
 			.flatten
-															.uniq
-															.sort
-															.join(";")
-
+			.uniq
+			.sort
+			.join(";")
 end
-
-
-
 
 #pull_email(data)
