@@ -1,0 +1,1 @@
+The commented out code is what is necessary for the program to function properly when the grading system is passing in put through STDIN and looking at output going to STDOUT.
